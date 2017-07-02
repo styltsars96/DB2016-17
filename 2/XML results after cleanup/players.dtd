@@ -1,0 +1,16 @@
+<!DOCTYPE nba>
+<!ELEMENT nba (division*)>
+<!ATTLIST nba dataset CDATA #REQUIRED>
+<!ELEMENT division (player*)>
+<!ATTLIST division id CDATA #REQUIRED>
+<!ELEMENT player (playerid,firstname,lastname,position,points,minutes,index?,tendex?,teamname,teamid)>
+<!ELEMENT playerid (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT points (#PCDATA)>
+<!ELEMENT minutes (#PCDATA)>
+<!ELEMENT index (#PCDATA)>
+<!ELEMENT tendex (#PCDATA)>
+<!ELEMENT teamname (#PCDATA)>
+<!ELEMENT teamid (#PCDATA)>

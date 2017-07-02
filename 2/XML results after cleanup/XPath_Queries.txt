@@ -1,0 +1,5 @@
+/merged/nba[@dataset='allstars']/division[@id='East']/player[points>10]
+
+/merged/nba/division/player[tendex>0.7]
+
+/merged/nba[@dataset='allstars']/division[@id='West']/player/teamname
